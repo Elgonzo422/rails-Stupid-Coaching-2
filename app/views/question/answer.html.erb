@@ -1,0 +1,22 @@
+<h1>Stupid coaching</h1>
+
+<div id="user_question">
+  <p>
+    <%=@question%>
+  </p>
+  <p>
+    - You
+  </p>
+</div>
+
+<div id="coach_answer">
+  <p>
+    <%=@answer%>
+  </p>
+  <p>
+    - Coach
+  </p>
+</div>
+<!-- <a href="http://localhost:3000/ask">Ask again?</a> same as below -->
+<%= link_to "Ask again?", ask_path%>
+
